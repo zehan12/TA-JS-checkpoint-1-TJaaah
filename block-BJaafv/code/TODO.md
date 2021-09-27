@@ -18,7 +18,7 @@ In second , consle.log only display the sum and it give variable undeifined.
 
 2. If we store the returned value of both functions above in variable `first` and `second` what will be the value of `first` and `second`.
 
-first will give value which is from  addition. second will give undefined value
+first will give value which is from  addition because of return statement . second will give undefined value because there is no return statement.
 
 
 3. What will be the output when you call above `sum` function (first) with three parameter like `sum(12, 24, 35)`. Explain why?
