@@ -128,7 +128,7 @@ Function starting with…
 
 ```js
 
-//1
+//1 which is greater than between two numbers
 function isGreater( numY , numZ ){
   if ( numY > numZ ){
     return `number Y is greater than number Z`
@@ -137,28 +137,29 @@ function isGreater( numY , numZ ){
   }
 }
 
-//2
+//2 function for square of number
 function square( num ){
   return num * num ;
+  //return num ** 2 ;
 }
 
 square();
 
-//3
+//3 function for range
 function isInRange( l , u , n){
   return l < n && u > n ;
 }
 
 isInRange();
 
-//4
+//4 function of addition
 function add( numA , numB , ){
   return numA + numB;
 }
 
 add();
 
-//5
+//5 check typeof of datatype
 function checkType(dataType){
   return typeof dataType;
 }
